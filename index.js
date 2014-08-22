@@ -7,7 +7,9 @@ module.exports = function() {
     var pathTokens = req.path.slice(1).split('/');
 
     // Check route
-    if (pathTokens[0] !== 'imgipsum') next();
+    if (pathTokens[0] !== 'imgipsum') return next();
+
+    // TODO: Handle no params
 
     var dimensions = pathTokens[1].split('x');
     var width = parseInt(dimensions[0]);
