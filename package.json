@@ -1,0 +1,8 @@
+{
+  "name": "imgipsum",
+  "main": "index.js",
+  "dependencies": {
+    "express": "~4.0.0",
+    "canvas": "^1.1.6"
+  }
+}
