@@ -2,9 +2,8 @@
 
 Dynamic placeholder images in Node. Inspired by [Dummy
 Image](http://dummyimage.com/), [Placehold.it](http://placehold.it/), and the
-likes.
+like.
 
----
 
 ## Requirements
 
