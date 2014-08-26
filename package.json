@@ -1,8 +1,34 @@
 {
   "name": "imgipsum",
-  "main": "index.js",
+  "description": "Express middleware for dynamic image placeholders.",
+  "version": "0.0.1",
+  "author": "Jico Baligod <jico@baligod.com>",
+  "main": "./index.js",
+  "keywords": [
+    "express",
+    "middleware",
+    "image",
+    "placeholder"
+  ],
+  "homepage": "https://github.com/jico/imgipsum",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0 <0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jico/imgipsum.git"
+  },
   "dependencies": {
-    "express": "~4.0.0",
     "canvas": "^1.1.6"
+  },
+  "devDependencies": {
+    "express": "~4.0.0"
+  },
+  "peerDependencies": {
+    "express": "~4.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }
